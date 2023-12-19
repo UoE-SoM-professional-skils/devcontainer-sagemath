@@ -1,5 +1,8 @@
 name: Build and publish Docker image to Organisation registry
 
+permissions:
+  packages: write
+
 on:
   push:
     branches:
